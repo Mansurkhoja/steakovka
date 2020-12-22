@@ -1,0 +1,25 @@
+/* FONTS */
+
+@font-face {
+    font-family: 'Lato';
+    src: url("../fonts/Lato-Medium.eot");
+    src: local("../fonts/Lato-Medium"), local("Lato-Medium"), url("../fonts/Lato-Medium.eot?#iefix") format("embedded-opentype"), url("../fonts/Lato-Medium.woff") format("woff"), url("../fonts/Lato-Medium.ttf") format("truetype");
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url("../fonts/Lato-Bold.eot");
+    src: local("../fonts/Lato-Bold"), local("Lato-Bold"), url("../fonts/Lato-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/Lato-Bold.woff") format("woff"), url("../fonts/Lato-Bold.ttf") format("truetype");
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Philosopher';
+    src: url("../fonts/Philosopher-Bold.eot");
+    src: local("../fonts/Philosopher-Bold"), local("Philosopher-Bold"), url("../fonts/Philosopher-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/Philosopher-Bold.woff") format("woff"), url("../fonts/Philosopher-Bold.ttf") format("truetype");
+    font-weight: 700;
+    font-style: normal;
+}
