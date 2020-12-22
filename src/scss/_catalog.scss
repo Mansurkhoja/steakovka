@@ -1,0 +1,32 @@
+.catalog {
+    overflow: hidden;
+    padding: 100px 0;
+}
+.catalog__inner {
+    display: flex;
+    align-items: center;
+    position: relative;
+    &::after {
+        content: "";
+        position: absolute;
+        top: -15%;
+        left: -25%;
+        width: 611px;
+        height: 422px;
+        background-image: url(../img/decor-cat.png);
+        background-repeat: no-repeat;
+        background-size: 422px;
+    }
+}
+.catalog__title {
+    flex: 1 1 50%;
+    text-align: center;
+    position: relative;
+}
+.catalog__items {
+    flex: 1 1 50%;
+    display: flex;
+    align-items: center;
+    margin: 0 -60px 0 20px;
+    margin-left: 20px;
+}
